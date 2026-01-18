@@ -12,7 +12,7 @@ public class DBConnection {
         if (connection == null || connection.isClosed()) {
             String url = "jdbc:mysql://localhost:3306/gatelog_db?allowPublicKeyRetrieval=true";
             String user = "root";
-            String password = "aiengineer@28";
+            String password = "// password";
             connection = DriverManager.getConnection(url, user, password);
         }
         return connection;
